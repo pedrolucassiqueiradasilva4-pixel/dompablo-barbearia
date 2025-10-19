@@ -7,8 +7,8 @@
     }
   ],
   "buildCommand": "npm install && npm run build",
-  "outputDirectory": "frontend/dist",
+  "outputDirectory": "frontend/build",
   "env": {
-    "VITE_API_URL": "https://dompablo-barbearia.onrender.com"
+    "REACT_APP_API_URL": "https://dompablo-barbearia.onrender.com"
   }
 }
