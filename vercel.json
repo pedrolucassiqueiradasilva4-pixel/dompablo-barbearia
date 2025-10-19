@@ -2,12 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "frontend/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build"
     }
   ],
   "buildCommand": "npm install && npm run build",
-  "outputDirectory": "frontend/build",
+  "outputDirectory": "build",
   "env": {
     "REACT_APP_API_URL": "https://dompablo-barbearia.onrender.com"
   }
