@@ -1,14 +1,14 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build"
-    }
+    { "src": "package.json", "use": "@vercel/static-build" }
   ],
   "buildCommand": "npm install && npm run build",
   "outputDirectory": "build",
   "env": {
     "REACT_APP_API_URL": "https://dompablo-barbearia.onrender.com"
-  }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
