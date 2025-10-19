@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "framework": "create-react-app",
   "buildCommand": "npm install && npm run build",
-  "outputDirectory": "build",
+  "outputDirectory": "dist",
   "env": {
-    "REACT_APP_API_URL": "https://dompablo-barbearia.onrender.com"
+    "VITE_API_URL": "https://dompablo-barbearia.onrender.com"
   },
   "routes": [
     {
